@@ -14,7 +14,7 @@ int main(){
     }
 
     int temp;
-    for(int i = 0; i < dizi_buyuklugu/2; i++){ // "/2" yapmamızın sebebi aynı elemanları tekrar çevirmemek.
+    for(int i = 0; i <= dizi_buyuklugu/2; i++){ // "/2" yapmamızın sebebi aynı elemanları tekrar çevirmemek.
         temp = dizi[i];
         dizi[i] = dizi[dizi_buyuklugu - 1 - i];
         dizi[dizi_buyuklugu - 1 - i] = temp;
